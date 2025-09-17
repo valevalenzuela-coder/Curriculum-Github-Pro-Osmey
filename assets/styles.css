@@ -1,0 +1,178 @@
+.navbar {
+    background-color: #1f5ee7 !important;
+}
+.navbar h4 {
+    color: rgba(255, 255, 255, 0.808) !important;
+    font-weight: bold;
+}
+.body {
+background-color: rgb(0, 0, 0);
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.body1 {
+background-color: rgb(0, 0, 0);
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.osmey {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.osmey h6 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0050fd;
+    justify-content: center;
+    display: flex;
+}
+.header {
+    margin: 0px 0px 100px 0px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header img {
+    border-radius: 5px;
+    width: 400px;
+    height: 450px;
+    margin: 10px 80px 20px 80px;
+}
+header h6{
+  letter-spacing: 2px; 
+  line-height: 2;
+  display: flex;
+    text-align: justify;    
+    margin: 0px 80px 20px 80px;
+
+}
+#line {
+  border: none;        
+  height: 4px;           
+  background: #0050fd;       
+  margin: 20px 0;
+}
+.title
+{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #ffffff !important;
+}
+.accordion-item {
+    background-color: #000000 !important;
+    color: white !important;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+#img2 {
+  border-radius: 5px;
+  width: 450px;
+  height: 500px;
+  margin: 10px 10px 20px 80px;
+}
+.carousel-item img {
+  display: block;         
+  margin: 0 auto;         
+  max-height: 700px;      
+  max-width: 80%;        
+  border-radius: 10px;   
+  object-fit: contain;     
+}
+.carousel-item {
+  text-align: center;
+}
+.carousel-item p {
+  text-align: justify;
+  margin: 20px 100px 20px 100px;
+}
+.habilidades {
+  display: flex;
+  justify-content: space-around;
+  text-align: center; 
+  margin-top: 30px; 
+ align-items: center;
+  font-size: 50px;
+  padding: 20px;
+}
+.habilidades i {
+  color: #0050fd;
+  font-size: 50px;
+  align-items: center;
+  display: block;
+  margin: 0 auto;
+}
+.habilidades .skills {
+  display: flex;
+  padding: 0 20px;
+  position: relative;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+.habilidades .skills:not(:last-child) {
+  border-right: 2px solid #0050fd;
+}
+.lista {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-type: none;
+  font-size: 15px;
+  text-align: center;
+  margin-right: 40px;
+
+}
+.habilidades h3 {
+  margin: 10px 0px 10px 0px;
+align-items: center;
+}
+.card {
+    background-color: #000000 !important;
+    color: white !important;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+.carousel-item img {
+    object-fit: cover;
+    object-position: top;
+    height: 300px;       
+    width: 100%;      
+}
+.contacto {
+  display: flex;            
+  justify-content: row;       
+  gap: 20px;               
+  flex-wrap: wrap;         
+  margin: 10px 80px 50px 80px;           
+}
+
+.contacto1 {  
+  flex: 1;                 
+  min-width: 150px;         
+}
+.contacto i {
+    color: #0050fd;
+    font-size: 50px;
+    align-items: center;
+    display: block;
+    margin: 0 20px;
+}
+.contacto1 h3 {
+    margin: 10px 0px 50px 0px;
+    align-items: center;
+}
+.footer {
+    background-color: #1f5ee7 !important;
+    color: white !important;
+    text-align: center;
+    padding: 6px;
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
